@@ -25,3 +25,7 @@ mp4のみ出てきます。
 途中で止めた場合、AA_data_folderができていると思います。
 それを削除してからまた使用してください。
 エラーを吐きます。
+
+FrogApp (@r-40021)さんがColaboratory版を作ってくださいました。こちらは横300文字で4s/fpsだそうです。
+ありがとうございます!
+https://colab.research.google.com/drive/1MtLY_0IyvYy4KXSWQWXBXw2_PmZeR1oR?usp=sharing
