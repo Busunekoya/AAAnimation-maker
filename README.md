@@ -26,6 +26,9 @@ mp4のみ出てきます。
 それを削除してからまた使用してください。
 エラーを吐きます。
 
+このプログラムはご自由にお使いください。バグなどを見つけた場合もコメントなどで送ってくれると嬉しいです。
+ただ、商用目的の利用は(まぁ、いないだろうけどね)このプログラムのURLを載せてください。
+
 FrogApp (@r-40021)さんがColaboratory版を作ってくださいました。こちらは横300文字で4s/fpsだそうです。
 ありがとうございます!
 https://colab.research.google.com/drive/1MtLY_0IyvYy4KXSWQWXBXw2_PmZeR1oR?usp=sharing
