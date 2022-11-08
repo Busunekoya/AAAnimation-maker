@@ -65,21 +65,19 @@ def save_all_frames(video_path, dir_path, basename, ratio, file_pass,font_name =
 
             img_gray = 0.299 * frame[:, :, 2] + 0.587 * frame[:, :, 1] + 0.114 * frame[:, :, 0]
 
-            if ratio != 1:
-
-                if size[1] % ratio != 0:
+            if size[1] % ratio != 0:
                     size_coordinate_y = size[1] // ratio + 1
-                else:
+            else:
                     size_coordinate_y = size[1] // ratio
 
-                if size[1] % ratio != 0:
+            if size[1] % ratio != 0:
                     size_coordinate_x = size[0] // ratio + 1
-                else:
+            else:
                     size_coordinate_x = size[0] // ratio
 
-                Completed_image = resize(img_gray, size_coordinate_x, size_coordinate_y)
+            Completed_image = resize(img_gray, size_coordinate_x, size_coordinate_y)
 
-                Completed_image = np.resize(Completed_image,(size_coordinate_x,size_coordinate_y)).astype(np.uint8)
+            Completed_image = np.resize(Completed_image,(size_coordinate_x,size_coordinate_y)).astype(np.uint8)
 
 
             img = Completed_image
